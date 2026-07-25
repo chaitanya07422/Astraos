@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Build / editor
+*.o
+*.ko
+*.mod
+*.mod.c
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Kernel / embedded build artifacts (later phases)
+*.dtb
+*.img
+*.itb
+*.bin
+!images/.gitkeep
+
+# Yocto / Buildroot (later)
+buildroot/output/
+yocto/build/
+yocto/downloads/
+yocto/sstate-cache/

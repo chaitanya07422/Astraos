@@ -1,0 +1,33 @@
+---
+description: AstraOS project discipline — PRD is source of truth, phased build, commit hygiene
+alwaysApply: true
+---
+
+# AstraOS Project Rules
+
+- `docs/PRD.md` is the single source of truth for scope, requirements, and acceptance
+  criteria. Before doing any work, check it — don't guess at scope or invent structure
+  it doesn't define.
+- Work strictly phase by phase, in the order defined in the PRD's Roadmap section
+  (Phase 0 → Phase 14). Never start a new phase until the current one is confirmed
+  complete against its Exit/Acceptance Criteria.
+- Never mark a phase, driver, or deliverable "done" unless it actually meets the
+  acceptance criteria in the PRD. If something is incomplete or broken, say so
+  explicitly — don't round up.
+- Every lesson doc follows the PRD's Documentation Standard: all 14 sections, including
+  a real Troubleshooting & Common Pitfalls section (actual error messages, not
+  placeholders), and the Guide Writing Standards (define acronyms on first use,
+  copy-paste-runnable commands with expected output).
+- Follow the repo structure and commit convention exactly as defined in the PRD
+  (`docs:`, `kernel:`, `driver:`, `boot:`, `rootfs:`, `experiment:`, `fix:`, etc.).
+- Commit after every meaningful unit of work — one lesson, one driver, one config
+  change. Never leave more than one logical change uncommitted. Push after committing.
+- At every versioned checkpoint (v0.1, v0.5, v1.0, v2.0), follow the PRD's release
+  process: flashable image, checksum, flashing instructions — and confirm the image
+  has actually been boot-tested before treating it as ready. Never publish an
+  untested image.
+- If something in the PRD's Risk Register is actually happening, flag it immediately
+  instead of quietly working around it.
+- If scope is unclear, check the PRD's Non-Goals section before assuming.
+- If we deviate from the PRD on purpose, say so — the PRD should be updated to match
+  reality, not silently ignored.
