@@ -11,7 +11,7 @@ Built by one engineer learning it, written for anyone who wants to learn it too.
 
 | Phase | Focus | Status |
 |---|---|---|
-| 0 | Computer Fundamentals | In progress |
+| 0 | Computer Fundamentals | Done |
 | 1–14 | See [`ROADMAP.md`](ROADMAP.md) | Not started |
 
 ## Quick start (Phase 0)

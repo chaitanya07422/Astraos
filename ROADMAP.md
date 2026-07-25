@@ -5,7 +5,7 @@ order; a phase is only marked done when its Exit / Acceptance Criteria are met.
 
 | Phase | Focus | Status | Notes |
 |---|---|---|---|
-| 0 | Computer Fundamentals | In progress | Memory sim, address translation, CPU sim + lesson |
+| 0 | Computer Fundamentals | Done | Memory sim, address translation, CPU sim + lesson 00 — exit criteria met |
 | 1 | ARM64 Architecture | Not started | |
 | 2 | RK3566 SoC | Not started | |
 | 3 | Boot Process | Not started | |
