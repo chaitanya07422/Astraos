@@ -6,7 +6,7 @@ order; a phase is only marked done when its Exit / Acceptance Criteria are met.
 | Phase | Focus | Status | Notes |
 |---|---|---|---|
 | 0 | Computer Fundamentals | Done | Memory sim, address translation, CPU sim + lesson 00 — exit criteria met |
-| 1 | ARM64 Architecture | Not started | |
+| 1 | ARM64 Architecture | Done | AArch64 asm, register inspect, context-switch via Docker arm64 + lesson 01 |
 | 2 | RK3566 SoC | Not started | |
 | 3 | Boot Process | Not started | |
 | 4 | U-Boot | Not started | → v0.1 checkpoint after this phase |

@@ -15,7 +15,14 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/).
   - `phase0-address-translation` — page table + TLB + faults
   - `phase0-cpu` — toy CPU with fetch–decode–execute and sample programs
 - Lesson 00: [`docs/lessons/00-computer-fundamentals.md`](docs/lessons/00-computer-fundamentals.md)
+- Phase 1 Docker image: `docker/phase1/` (`linux/arm64` Debian bookworm)
+- Phase 1 experiments:
+  - `phase1-asm` — hello + arithmetic (svc, add/sub/ldr/str)
+  - `phase1-registers` — GPR snapshot + GDB inspection
+  - `phase1-context-switch` — cooperative task switch in AArch64 asm
+- Lesson 01: [`docs/lessons/01-arm64-architecture.md`](docs/lessons/01-arm64-architecture.md)
 
 ### Phase status
 
 - Phase 0 (Computer Fundamentals) — complete against PRD exit criteria
+- Phase 1 (ARM64 Architecture) — complete against PRD exit criteria

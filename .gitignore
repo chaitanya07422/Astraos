@@ -11,6 +11,12 @@ venv/
 *.ko
 *.mod
 *.mod.c
+
+# Phase 1 experiment binaries
+experiments/phase1-asm/hello
+experiments/phase1-asm/arithmetic
+experiments/phase1-registers/register_inspect
+experiments/phase1-context-switch/context_switch
 .DS_Store
 *.swp
 *~

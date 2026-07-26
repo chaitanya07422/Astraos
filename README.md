@@ -12,24 +12,31 @@ Built by one engineer learning it, written for anyone who wants to learn it too.
 | Phase | Focus | Status |
 |---|---|---|
 | 0 | Computer Fundamentals | Done |
-| 1–14 | See [`ROADMAP.md`](ROADMAP.md) | Not started |
+| 1 | ARM64 Architecture | Done |
+| 2–14 | See [`ROADMAP.md`](ROADMAP.md) | Not started |
 
-## Quick start (Phase 0)
+## Quick start
 
-Requires Python 3.9+.
+### Phase 0 (Python 3.9+)
 
 ```bash
-# Memory simulator
 make -C experiments/phase0-memory run
-
-# Address translation (MMU) demo
 make -C experiments/phase0-address-translation run
-
-# Simple CPU simulator
 make -C experiments/phase0-cpu run
 ```
 
 Lesson: [`docs/lessons/00-computer-fundamentals.md`](docs/lessons/00-computer-fundamentals.md)
+
+### Phase 1 (Docker)
+
+```bash
+chmod +x docker/phase1/run.sh
+./docker/phase1/run.sh make -C experiments/phase1-asm run
+./docker/phase1/run.sh make -C experiments/phase1-registers run
+./docker/phase1/run.sh make -C experiments/phase1-context-switch run
+```
+
+Lesson: [`docs/lessons/01-arm64-architecture.md`](docs/lessons/01-arm64-architecture.md)
 
 ## Repository layout
 
