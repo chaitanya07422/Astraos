@@ -21,8 +21,15 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/).
   - `phase1-registers` — GPR snapshot + GDB inspection
   - `phase1-context-switch` — cooperative task switch in AArch64 asm
 - Lesson 01: [`docs/lessons/01-arm64-architecture.md`](docs/lessons/01-arm64-architecture.md)
+- Phase 2 hardware pack under `docs/hardware/`:
+  - `SOURCES.md` — citation bibliography
+  - `rk3566-notes.md` — datasheet/board notes
+  - `register-map.md` — public MMIO bases
+  - `block-diagram.md` — PMIC, clocks, UART, GPIO, USB, DDR, eMMC
+- Lesson 02: [`docs/lessons/02-rk3566-soc.md`](docs/lessons/02-rk3566-soc.md)
 
 ### Phase status
 
 - Phase 0 (Computer Fundamentals) — complete against PRD exit criteria
 - Phase 1 (ARM64 Architecture) — complete against PRD exit criteria
+- Phase 2 (RK3566 SoC) — complete against PRD exit criteria

@@ -13,7 +13,8 @@ Built by one engineer learning it, written for anyone who wants to learn it too.
 |---|---|---|
 | 0 | Computer Fundamentals | Done |
 | 1 | ARM64 Architecture | Done |
-| 2–14 | See [`ROADMAP.md`](ROADMAP.md) | Not started |
+| 2 | RK3566 SoC | Done |
+| 3–14 | See [`ROADMAP.md`](ROADMAP.md) | Not started |
 
 ## Quick start
 
@@ -37,6 +38,17 @@ chmod +x docker/phase1/run.sh
 ```
 
 Lesson: [`docs/lessons/01-arm64-architecture.md`](docs/lessons/01-arm64-architecture.md)
+
+### Phase 2 (read + cite)
+
+```text
+docs/hardware/SOURCES.md
+docs/hardware/rk3566-notes.md
+docs/hardware/register-map.md
+docs/hardware/block-diagram.md
+```
+
+Lesson: [`docs/lessons/02-rk3566-soc.md`](docs/lessons/02-rk3566-soc.md)
 
 ## Repository layout
 
